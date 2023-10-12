@@ -91,7 +91,20 @@ experiences:
     title: Experiences
     info:
       - role: Développeur Back-End
-        time: Févr 2022 - Aujourd'hui
+        time: Juillet 2023 - Aujourd'hui
+        company: Plus que pro
+        details: |
+          - Maintien et développement sur une galaxie de sites web, comprenant des sites de franchise en français et en anglais, ainsi que des sites d'administration thématiques.
+          - Conception et mise en œuvre d'un package Laravel pour l'édition en masse de fichiers composer.json, spécifiquement pour éditer les référentiels d'une liste de packages.
+          - Développement d'une version bash de l'outil d'édition en masse, offrant une capacité de traitement accru.
+          - Amélioration du code existant, résolution de bugs, et mise en œuvre de nouvelles fonctionnalités pour optimiser la performance et la fiabilité.
+          - Création d'un entry point API pour faciliter les intégrations et synchronisations.
+          - Développement de plugins Zsh pour améliorer l'efficacité et le confort d'utilisation du terminal.
+          - Collaboration étroite avec la DSI pour résoudre des problèmes spécifiques, notamment ceux liés à Docker et aux permissions.
+          - Application régulière des principes SOLID et utilisation des patterns du "Gang of Four" pour assurer une architecture de code robuste et maintenable.
+
+      - role: Développeur Back-End
+        time: Févr 2022 - Juin 2023
         company: ObjetRama
         details: |
           - Développeur principal sur le projet e-commerce destiné aux grands comptes, construit avec Laravel.
