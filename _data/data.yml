@@ -139,24 +139,26 @@ certifications:
 
 projects:
     title: Projets
-    intro: >
-      Below are some of the projects I've worked on, showcasing my skills in various technologies and frameworks.
+    intro: 
     assignments:
       - title: Laravel E-commerce with Vue.js
         link: "https://github.com/Slourp/laravel_ecommerce_vue"
-        tagline: "An e-commerce platform built with Laravel and Vue.js."
+        tagline: "Une plateforme de e-commerce ( Laravel et Vue.js )."
+
 
       - title: Natour
         link: "https://github.com/Slourp/natour"
-        tagline: "A reservation system for stays, built with Express.js and MongoDB."
+        tagline: "Un système de réservation pour des séjours ( Express.js et MongoDB )."
+
 
       - title: Laravel Clean Architecture
         link: "https://github.com/Slourp/laravel-clean-architecture"
-        tagline: "An implementation of Clean Architecture in a Laravel project."
+        tagline: "Une mise en œuvre de la clean architecture ( Laravel )."
 
       - title: Movies
         link: "https://github.com/Slourp/movies"
-        tagline: "A movie database application."
+        tagline: "Une application de base de données de films ( Laravel )."
+
 
 # oss:
 #     title: OSS Contributions
