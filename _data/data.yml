@@ -1,265 +1,182 @@
-#
 # Be aware that even a small syntax error here can lead to failures in output.
-#
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: David Vanmak
+    tagline: Développeur Backend
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: vanmakdavid@gmail.com
+    phone: +33 6 38 02 68 51
+    linkedin: https://www.linkedin.com/in/davidvanmak/
+    github: Slourp
+    # pdf: N/A
 
     languages:
-      title: Languages
+      title: Langues
       info:
-        - idiom: English
-          level: Native
+        - idiom: Anglais
+          level: B2
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
-
+        - idiom: Espagnol
+          level: Langue maternelle
     interests:
-      title: Interests
+      title: Intérêts
       info:
-        - item: Climbing
-          link:
+        - item: Danses latine
+        - item: Vélo
+        - item: Restauration mécanique
+    skills:
+        title: Skills &amp; Proficiency
 
-        - item: Snowboarding
-          link:
+        technical:
+          title: Compétences techniques
+          skillset:
+            - name: PHP (3.5 ans d'expérience)
+            - name: Laravel & Symfony 
+            - name: JavaScript (TypeScript)
+            - name: Express.js (Application monolithique)
+            - name: MySQL (ORM Eloquent)
+            - name: MongoDB (ORM Doctrine)
+            - name: HTML5 & CSS
+            - name: Tailwind
 
-        - item: Cooking
-          link:
+        soft:
+          title: Compétences comportementales
+          skillset:
+            - name: Gestion du stress et respect des délais
+            - name: Travail en binôme (Pair Programming)
+            - name: Transfert de connaissances et mentorat
+            - name: Résolution analytique de problèmes
+            - name: Recherche autonome de solutions
+            - name: Teamwork
+            - name: Problem-solving
+            - name: Communication
+            - name: Time management
+
 
 career-profile:
-    title: Career Profile
+    title: Profil Professionnel
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      En tant que développeur back-end spécialisé en PHP et JavaScript, je possède une expertise approfondie dans le domaine de l'e-commerce. Ma maîtrise de frameworks tels que Laravel, Symfony et Express.js, ainsi que mes compétences en DevOps, me permettent de contribuer de manière autonome et efficace à divers projets. Passionné par le partage de connaissances, je suis également engagé dans le mentorat de mes collègues pour les aider à atteindre leurs objectifs professionnels.
 education:
-    title: Education
+    title: Formation
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Formation Développement Web et Web Mobile Titre RNCP Niv 5
+        university: Elan Formation
+        time: Sep 2021 - Mai 2021
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          Completed a comprehensive web and mobile development course with a focus on various technologies.
+            - RNCP Level 5 Certification
+            - Web and Mobile Development
+      - degree: Bootcamp Ruby on Rails
+        university: LeWagon
+        time: Jan 2020 - Mar 2020
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
+          Participated in an intensive bootcamp focused on Ruby on Rails.
+            - Ruby on Rails
+            - Intensive Bootcamp
+      - degree: Licence Economie et Gestion Parcours Gestion
+        university: Université De Strasbourg
+        time: 2015 - 2019
+        details: |
+          Completed a bachelor's degree in Economics and Management with a focus on business management.
+            - Economics and Management
+            - Business Management
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Développeur Back-End
+        time: Févr 2022 - Aujourd'hui
+        company: ObjetRama
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          - Développeur principal sur le projet e-commerce destiné aux grands comptes, construit avec Laravel.
+          - Gestion et optimisation d'un système de synchronisation des données clients entre notre plateforme e-commerce et un CRM, développé en Express.js.
+          - Encadrement et mentorat d'un stagiaire sur des projets de monitoring et de gestion des certificats SSL, en suivant les bonnes pratiques DevOps.
+          - Analyse et traitement des données relatives aux paiements.
+          - Conception d'une pipeline CI/CD sur GitLab pour le projet dédié aux grands comptes.
+          - Amélioration des performances par la mise en cache pour les grands comptes et pour un projet Shopify sous WooCommerce.
+          - Contribution aux revues de code et promotion de la Clean Architecture au sein de l'équipe.
+
+      - role: Développeur Front-End
+        time: Nov 2021 - Jan 2022
+        company: Senoee
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          - Membre clé d'une équipe multidisciplinaire composée de 2 développeurs front-end, 2 développeurs back-end, un data analyste, 2 PO, un sponsor et un commercial.
+          - Intégration des maquettes et de l'API en utilisant React avec Redux dans un environnement Agile.
+          - Proposition et mise en œuvre de Vite pour l'environnement de développement, réduisant le temps de démarrage de l'application de 1m30s à moins de 3 secondes.
+
+      - role: Cofondateur, CTO et Développeur
+        time: Jan 2021 - Oct 2021
+        company: Apollo Immo
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          - Cofondateur et CTO d'une startup de location immobilière à portée nationale.
+          - Dirigé une équipe de 5 développeurs pour créer le site Apollo-Immo, utilisant des technologies comme React, Symfony, et API Platform.
+          - Élaboration et mise en œuvre de plans pour l'intégration de nouvelles technologies et refontes majeures.
+          - Gestion des risques techniques et élaboration de plans d'atténuation.
+          - Priorisation des fonctionnalités en fonction de leur impact sur les utilisateurs et les objectifs commerciaux.
+          - Recrutement de développeurs stagiaires, freelances et alternants.
+          - Création d'un générateur de contrats pour les parties prenantes.
+
+
 
 certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+  title: Certifications
+  list:
+    - name: Mirakl Certification
+      start: 2023
+      end: 2023
+      organization: Mirakl
+      credentialid: N/A
+      credentialurl: N/A
+      credentialname: N/A
+      details: |
+        Obtained Mirakl Certification in September 2023.
 
 projects:
-    title: Projects
+    title: Projets
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Below are some of the projects I've worked on, showcasing my skills in various technologies and frameworks.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Laravel E-commerce with Vue.js
+        link: "https://github.com/Slourp/laravel_ecommerce_vue"
+        tagline: "An e-commerce platform built with Laravel and Vue.js."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Natour
+        link: "https://github.com/Slourp/natour"
+        tagline: "A reservation system for stays, built with Express.js and MongoDB."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Laravel Clean Architecture
+        link: "https://github.com/Slourp/laravel-clean-architecture"
+        tagline: "An implementation of Clean Architecture in a Laravel project."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Movies
+        link: "https://github.com/Slourp/movies"
+        tagline: "A movie database application."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: N/A
+#         link: N/A
+#         tagline: N/A
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Étude de cas sur l'application des principes SOLID en PHP.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - title: "Les principes SOLID en PHP : Une étude de cas avec une application de réservation de voyages"
+        link: "https://medium.com/@david.lwg/les-principes-solid-en-php-une-%C3%A9tude-de-cas-avec-une-application-de-r%C3%A9servation-de-voyages-bcc281bddefe"
+        authors: "David V"
+        conference: Medium
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
