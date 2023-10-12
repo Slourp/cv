@@ -95,13 +95,11 @@ experiences:
         company: Plus que pro
         details: |
           - Maintien et développement sur une galaxie de sites web, comprenant des sites de franchise en français et en anglais, ainsi que des sites d'administration thématiques.
-          - Conception et mise en œuvre d'un package Laravel pour l'édition en masse de fichiers composer.json, spécifiquement pour éditer les référentiels d'une liste de packages.
-          - Développement d'une version bash de l'outil d'édition en masse, offrant une capacité de traitement accru.
+          - Conception et mise en œuvre d'un package Laravel ainsi que d'un script pour l'édition en masse de fichiers composer.json
           - Amélioration du code existant, résolution de bugs, et mise en œuvre de nouvelles fonctionnalités pour optimiser la performance et la fiabilité.
-          - Création d'un entry point API pour faciliter les intégrations et synchronisations.
+          - Création d'un entry point API pour faciliter les synchronisations.
           - Développement de plugins Zsh pour améliorer l'efficacité et le confort d'utilisation du terminal.
           - Collaboration étroite avec la DSI pour résoudre des problèmes spécifiques, notamment ceux liés à Docker et aux permissions.
-          - Application régulière des principes SOLID et utilisation des patterns du "Gang of Four" pour assurer une architecture de code robuste et maintenable.
 
       - role: Développeur Back-End
         time: Févr 2022 - Juin 2023
