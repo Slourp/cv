@@ -168,15 +168,15 @@ projects:
 #       - title: N/A
 #         link: N/A
 #         tagline: N/A
-publications:
-    title: Publications
-    intro: |
-      Étude de cas sur l'application des principes SOLID en PHP.
-    papers:
-      - title: "Les principes SOLID en PHP : Une étude de cas avec une application de réservation de voyages"
-        link: "https://medium.com/@david.lwg/les-principes-solid-en-php-une-%C3%A9tude-de-cas-avec-une-application-de-r%C3%A9servation-de-voyages-bcc281bddefe"
-        authors: "David V"
-        conference: Medium
+#publications:
+#    title: Publications
+#    intro: |
+#      Étude de cas sur l'application des principes SOLID en PHP.
+#    papers:
+#      - title: "Les principes SOLID en PHP : Une étude de cas avec une application de réservation de voyages"
+#        link: "https://medium.com/@david.lwg/les-principes-solid-en-php-une-%C3%A9tude-de-cas-avec-une-application-de-r%C3%A9servation-de-voyages-bcc281bddefe"
+#        authors: "David V"
+#        conference: Medium
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
