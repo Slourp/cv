@@ -1,20 +1,15 @@
-# Be aware that even a small syntax error here can lead to failures in output.
-
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    position: right
+    about: False
+    education: True
 
-    # Profile information
     name: David Vanmak
-    tagline: Développeur Backend
+    tagline:  Développeur Backend | Expert Laravel, Symfony & NestJS
 
-    # Sidebar links
     email: vanmakdavid@gmail.com
     phone: +33 6 38 02 68 51
     linkedin: https://www.linkedin.com/in/davidvanmak/
     github: Slourp
-    # pdf: N/A
 
     languages:
       title: Langues
@@ -24,45 +19,41 @@ sidebar:
 
         - idiom: Espagnol
           level: Langue maternelle
+
     interests:
       title: Intérêts
       info:
-        - item: Danses latine
+        - item: Danses latines
         - item: Vélo
         - item: Restauration mécanique
-    skills:
-        title: Skills &amp; Proficiency
 
+    skills:
+        title: Skills & Proficiency
         technical:
           title: Compétences techniques
           skillset:
-            - name: PHP (3.5 ans d'expérience)
-            - name: Laravel & Symfony 
-            - name: JavaScript (TypeScript)
-            - name: Express.js (Application monolithique)
-            - name: MySQL (ORM Eloquent)
-            - name: MongoDB (ORM Doctrine)
-            - name: HTML5 & CSS
-            - name: Tailwind
-
+            - name: PHP, Laravel & Symfony (3.5 ans d'expérience)
+            - name: NestJS
+            - name: JavaScript (TypeScript), Vue.js
+            - name: Clean Architecture, TDD, Event Sourcing (Spatie)
+            - name: MySQL (ORM Eloquent), MongoDB (ORM Doctrine)
+            - name: HTML5 & CSS, Tailwind
+            - name: Utilisation de Linux (10 ans d'expérience)
         soft:
           title: Compétences comportementales
           skillset:
-            - name: Gestion du stress et respect des délais
-            - name: Travail en binôme (Pair Programming)
-            - name: Transfert de connaissances et mentorat
+            - name: Leadership technique et gestion de projet
+            - name: Mentorat, transfert de connaissances
+            - name: Communication claire avec parties prenantes non-techniques
             - name: Résolution analytique de problèmes
             - name: Recherche autonome de solutions
-            - name: Teamwork
-            - name: Problem-solving
-            - name: Communication
-            - name: Time management
-
+            - name: Excellente gestion du stress et respect des délais
 
 career-profile:
     title: Profil Professionnel
     summary: |
-      En tant que développeur back-end spécialisé en PHP et JavaScript, je possède une expertise approfondie dans le domaine de l'e-commerce. Ma maîtrise de frameworks tels que Laravel, Symfony et Express.js, ainsi que mes compétences en DevOps, me permettent de contribuer de manière autonome et efficace à divers projets. Passionné par le partage de connaissances, je suis également engagé dans le mentorat de mes collègues pour les aider à atteindre leurs objectifs professionnels.
+      Développeur backend senior avec une passion pour le leadership technique et une expertise approfondie en Laravel, Symfony, et NestJS. Spécialisé dans la mise en œuvre de la Clean Architecture, le TDD, et l'Event Sourcing pour améliorer la maintenabilité et la testabilité des applications. Expérience significative dans le mentorat d'équipes, la gestion de projets complexes, et la communication efficace des concepts techniques à des parties prenantes non-techniques. Engagé dans l'utilisation des meilleures pratiques et des technologies modernes pour résoudre des défis complexes et améliorer les processus de développement.
+
 education:
     title: Formation
     info:
@@ -87,20 +78,19 @@ education:
           Completed a bachelor's degree in Economics and Management with a focus on business management.
             - Economics and Management
             - Business Management
+
 experiences:
-    title: Experiences
+    title: Expériences
     info:
-      - role: Développeur Back-End
+      - role: Développeur Back-End | Mentor Technique
         time: Juillet 2023 - Aujourd'hui
         company: Plus que pro
         details: |
-          - Maintien et développement sur une galaxie de sites web, comprenant des sites de franchise en français et en anglais, ainsi que des sites d'administration thématiques.
-          - Conception et mise en œuvre d'un package Laravel ainsi que d'un script pour l'édition en masse de fichiers composer.json
-          - Amélioration du code existant, résolution de bugs, et mise en œuvre de nouvelles fonctionnalités pour optimiser la performance et la fiabilité.
-          - Création d'un entry point API pour faciliter les synchronisations.
-          - Développement de plugins Zsh pour améliorer l'efficacité et le confort d'utilisation du terminal.
-          - Collaboration étroite avec la DSI pour résoudre des problèmes spécifiques, notamment ceux liés à Docker et aux permissions.
-
+          - Piloté la refonte d'un projet e-commerce legacy en adoptant la Clean Architecture, améliorant significativement la maintenabilité et la testabilité.
+          - Implémenté le TDD pour renforcer la qualité du code et la documentation du projet sur les rôles et permissions.
+          - Créé et dispensé une formation interne sur la Clean Architecture, renforçant les compétences de l'équipe sur Laravel.
+          - Mentoré des développeurs juniors, stagiaires, et alternants, partageant des connaissances sur les frameworks, Linux, et les bonnes pratiques de développement.
+          - Facilité la communication des détails techniques à des parties prenantes non-techniques, assurant un soutien global au projet.
       - role: Développeur Back-End
         time: Févr 2022 - Juin 2023
         company: ObjetRama
@@ -112,7 +102,6 @@ experiences:
           - Conception d'une pipeline CI/CD sur GitLab pour le projet dédié aux grands comptes.
           - Amélioration des performances par la mise en cache pour les grands comptes et pour un projet Shopify sous WooCommerce.
           - Contribution aux revues de code et promotion de la Clean Architecture au sein de l'équipe.
-
       - role: Développeur Front-End
         time: Nov 2021 - Jan 2022
         company: Senoee
@@ -120,7 +109,6 @@ experiences:
           - Membre clé d'une équipe multidisciplinaire composée de 2 développeurs front-end, 2 développeurs back-end, un data analyste, 2 PO, un sponsor et un commercial.
           - Intégration des maquettes et de l'API en utilisant React avec Redux dans un environnement Agile.
           - Proposition et mise en œuvre de Vite pour l'environnement de développement, réduisant le temps de démarrage de l'application de 1m30s à moins de 3 secondes.
-
       - role: Cofondateur, CTO et Développeur
         time: Jan 2021 - Oct 2021
         company: Apollo Immo
@@ -133,8 +121,6 @@ experiences:
           - Recrutement de développeurs stagiaires, freelances et alternants.
           - Création d'un générateur de contrats pour les parties prenantes.
 
-
-
 certifications:
   title: Certifications
   list:
@@ -142,54 +128,28 @@ certifications:
       start: 2023
       end: 2023
       organization: Mirakl
-      credentialid: N/A
-      credentialurl: N/A
-      credentialname: N/A
       details: |
         Obtained Mirakl Certification in September 2023.
 
 projects:
     title: Projets
-    intro: 
     assignments:
-      - title: Laravel E-commerce with Vue.js
-        link: "https://github.com/Slourp/laravel_ecommerce_vue"
-        tagline: "Une plateforme de e-commerce ( Laravel et Vue.js )."
-
-
+      - title: Clone de Google Drive
+        link: "https://gitlab.com/peuks/google_drive"
+        tagline: "Un clone de Google Drive utilisant Laravel, TDD, et la Clean Architecture avec Vue.js TS."
+      - title: Loots of Flow
+        link: "https://gitlab.com/peuks/loots-of-flow"
+        tagline: "Un projet concurrent à Zapier basé sur Next.js, Shadcn UI, Acentiry UI, et TypeScript."
+      - title: Dashboard blog
+        link: "https://gitlab.com/peuks/event_source"
+        tagline: "Proof of concept d'event sourcing & cqrs en utilisant laravel spatie, shadcn ui et vuejs"
       - title: Natour
         link: "https://github.com/Slourp/natour"
-        tagline: "Un système de réservation pour des séjours ( Express.js et MongoDB )."
-
-
-      - title: Laravel Clean Architecture
-        link: "https://github.com/Slourp/laravel-clean-architecture"
-        tagline: "Une mise en œuvre de la clean architecture ( Laravel )."
-
+        tagline: "Un système de réservation pour des séjours (Express.js et MongoDB)."
       - title: Movies
         link: "https://github.com/Slourp/movies"
-        tagline: "Une application de base de données de films ( Laravel )."
+        tagline: "Une application de base de données de films basé sur limewire (Laravel)."
 
-
-# oss:
-#     title: OSS Contributions
-#     intro: >
-#       You can list your open source software contributions in this
-#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#     contributions:
-#       - title: N/A
-#         link: N/A
-#         tagline: N/A
-#publications:
-#    title: Publications
-#    intro: |
-#      Étude de cas sur l'application des principes SOLID en PHP.
-#    papers:
-#      - title: "Les principes SOLID en PHP : Une étude de cas avec une application de réservation de voyages"
-#        link: "https://medium.com/@david.lwg/les-principes-solid-en-php-une-%C3%A9tude-de-cas-avec-une-application-de-r%C3%A9servation-de-voyages-bcc281bddefe"
-#        authors: "David V"
-#        conference: Medium
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
