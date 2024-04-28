@@ -1,127 +1,132 @@
-sidebar:
-    position: right
-    about: False
-    education: True
-
-    name: David Vanmak
-    tagline:  Développeur Backend | Expert Laravel, Symfony & NestJS
-
-    email: vanmakdavid@gmail.com
-    phone: +33 6 38 02 68 51
-    linkedin: https://www.linkedin.com/in/davidvanmak/
-    github: Slourp
-    gitlab: https://gitlab.com/peuks
-    
-
-    languages:
-      title: Langues
-      info:
-        - idiom: Anglais
-          level: B2
-
-        - idiom: Espagnol
-          level: Langue maternelle
-
-    interests:
-      title: Intérêts
-      info:
-        - item: Danses latines
-        - item: Vélo
-        - item: Restauration mécanique
-
-    skills:
-        title: Skills & Proficiency
-        technical:
-          title: Compétences techniques
-          skillset:
-            - name: PHP, Laravel & Symfony (3.5 ans d'expérience)
-            - name: NestJS
-            - name: JavaScript (TypeScript), Vue.js
-            - name: Clean Architecture, TDD, Event Sourcing (Spatie)
-            - name: MySQL (ORM Eloquent), MongoDB (ORM Doctrine)
-            - name: HTML5 & CSS, Tailwind
-            - name: Utilisation de Linux (10 ans d'expérience)
-        soft:
-          title: Compétences comportementales
-          skillset:
-            - name: Leadership technique et gestion de projet
-            - name: Mentorat, transfert de connaissances
-            - name: Communication claire avec parties prenantes non-techniques
-            - name: Résolution analytique de problèmes
-            - name: Recherche autonome de solutions
-            - name: Excellente gestion du stress et respect des délais
-
-career-profile:
-    title: Profil Professionnel
-    summary: |
-      Développeur backend senior avec une passion pour le leadership technique et une expertise approfondie en Laravel, Symfony, et NestJS. Spécialisé dans la mise en œuvre de la Clean Architecture, le TDD, et l'Event Sourcing pour améliorer la maintenabilité et la testabilité des applications. Expérience significative dans le mentorat d'équipes, la gestion de projets complexes, et la communication efficace des concepts techniques à des parties prenantes non-techniques. Engagé dans l'utilisation des meilleures pratiques et des technologies modernes pour résoudre des défis complexes et améliorer les processus de développement.
+name: David Vanmak
+tagline: Développeur Backend | PHP  Laravel, Symfony 
+contact:
+  email: vanmakdavid@gmail.com
+  phone: +33 6 38 02 68 51
+  linkedin: https://www.linkedin.com/in/davidvanmak/
+  github: Slourp
+  gitlab: https://gitlab.com/peuks
 
 education:
-    title: Formation
-    info:
-      - degree: Formation Développement Web et Web Mobile Titre RNCP Niv 5
-        university: Elan Formation
-        time: Sep 2021 - Mai 2021
-        details: |
-          Completed a comprehensive web and mobile development course with a focus on various technologies.
-            - RNCP Level 5 Certification
-            - Web and Mobile Development
-      - degree: Bootcamp Ruby on Rails
-        university: LeWagon
-        time: Jan 2020 - Mar 2020
-        details: |
-          Participated in an intensive bootcamp focused on Ruby on Rails.
-            - Ruby on Rails
-            - Intensive Bootcamp
-      - degree: Licence Economie et Gestion Parcours Gestion
-        university: Université De Strasbourg
-        time: 2015 - 2019
-        details: |
-          Completed a bachelor's degree in Economics and Management with a focus on business management.
-            - Economics and Management
-            - Business Management
+  - degree: Formation Développement Web et Web Mobile, Titre RNCP Niveau 5
+    institution: Elan Formation
+    time: Sep 2021 - Mai 2021
+    details: Cours complet de développement web et mobile axé sur diverses technologies.
+      - Certification RNCP Niveau 5
+      - Développement Web et Mobile
+  - degree: Bootcamp Ruby on Rails
+    institution: LeWagon
+    time: Jan 2020 - Mar 2020
+    details: Participation à un bootcamp intensif centré sur Ruby on Rails.
+      - Ruby on Rails
+      - Bootcamp intensif
+  - degree: Licence en Économie et Gestion, Parcours Gestion
+    institution: Université De Strasbourg
+    time: 2015 - 2019
+    details: Licence en économie et gestion avec un focus sur la gestion d'entreprise.
+      - Économie et Gestion
+      - Gestion d'entreprise
+
+languages:
+  - idiom: Anglais
+    level: B2
+  - idiom: Espagnol
+    level: Langue maternelle
+
+interests:
+  - Danses latines
+  - Vélo
+  - Restauration mécanique
+
+skills:
+  technical:
+    - PHP, Laravel & Symfony (3,5 ans d'expérience)
+    - NestJS
+    - JavaScript (TypeScript), Vue.js
+    - Architecture propre, TDD, Event Sourcing (Spatie)
+    - MySQL (ORM Eloquent), MongoDB (ORM Doctrine)
+    - HTML5 & CSS, Tailwind
+    - Utilisation de Linux (10 ans d'expérience)
+  soft:
+    - Leadership technique et gestion de projet
+    - Mentorat, transfert de connaissances
+    - Communication claire avec les parties prenantes non techniques
+    - Résolution analytique de problèmes
+    - Recherche autonome de solutions
+    - Excellente gestion du stress et respect des délais
+
+career-profile:
+  summary: |
+    Développeur backend passionné par le leadership technique, avec une spécialisation en Laravel, accompagnée de compétences solides en Symfony et NestJS. Expérimenté dans l'application de la clean architecture, le Test Driven Development (TDD), et l'Event Sourcing pour optimiser la maintenabilité et la testabilité des systèmes. Expérience significative dans le mentorat d'équipes et la gestion de projets complexes, avec une capacité éprouvée à former les développeurs aux tests unitaires et d'intégration, renforçant ainsi les standards de qualité au sein des équipes. Engagé à promouvoir les meilleures pratiques et à utiliser des technologies modernes pour relever des défis techniques complexes et améliorer continuellement les processus de développement.
+
 
 experiences:
-    title: Expériences
-    info:
-      - role: Développeur Back-End | Mentor Technique
-        time: Juillet 2023 - Aujourd'hui
-        company: Plus que pro
-        details: |
-          - Piloté la refonte d'un projet e-commerce legacy en adoptant la Clean Architecture, améliorant significativement la maintenabilité et la testabilité.
-          - Implémenté le TDD pour renforcer la qualité du code et la documentation du projet sur les rôles et permissions.
-          - Créé et dispensé une formation interne sur la Clean Architecture, renforçant les compétences de l'équipe sur Laravel.
-          - Mentoré des développeurs juniors, stagiaires, et alternants, partageant des connaissances sur les frameworks, Linux, et les bonnes pratiques de développement.
-          - Facilité la communication des détails techniques à des parties prenantes non-techniques, assurant un soutien global au projet.
-      - role: Développeur Back-End
-        time: Févr 2022 - Juin 2023
-        company: ObjetRama
-        details: |
-          - Développeur principal sur le projet e-commerce destiné aux grands comptes, construit avec Laravel.
-          - Gestion et optimisation d'un système de synchronisation des données clients entre notre plateforme e-commerce et un CRM, développé en Express.js.
-          - Encadrement et mentorat d'un stagiaire sur des projets de monitoring et de gestion des certificats SSL, en suivant les bonnes pratiques DevOps.
-          - Analyse et traitement des données relatives aux paiements.
-          - Conception d'une pipeline CI/CD sur GitLab pour le projet dédié aux grands comptes.
-          - Amélioration des performances par la mise en cache pour les grands comptes et pour un projet Shopify sous WooCommerce.
-          - Contribution aux revues de code et promotion de la Clean Architecture au sein de l'équipe.
-      - role: Développeur Front-End
-        time: Nov 2021 - Jan 2022
-        company: Senoee
-        details: |
-          - Membre clé d'une équipe multidisciplinaire composée de 2 développeurs front-end, 2 développeurs back-end, un data analyste, 2 PO, un sponsor et un commercial.
-          - Intégration des maquettes et de l'API en utilisant React avec Redux dans un environnement Agile.
-          - Proposition et mise en œuvre de Vite pour l'environnement de développement, réduisant le temps de démarrage de l'application de 1m30s à moins de 3 secondes.
-      - role: Cofondateur, CTO et Développeur
-        time: Jan 2021 - Oct 2021
-        company: Apollo Immo
-        details: |
-          - Cofondateur et CTO d'une startup de location immobilière à portée nationale.
-          - Dirigé une équipe de 5 développeurs pour créer le site Apollo-Immo, utilisant des technologies comme React, Symfony, et API Platform.
-          - Élaboration et mise en œuvre de plans pour l'intégration de nouvelles technologies et refontes majeures.
-          - Gestion des risques techniques et élaboration de plans d'atténuation.
-          - Priorisation des fonctionnalités en fonction de leur impact sur les utilisateurs et les objectifs commerciaux.
-          - Recrutement de développeurs stagiaires, freelances et alternants.
-          - Création d'un générateur de contrats pour les parties prenantes.
+  - role: Développeur Backend Laravel
+    company: Plus que pro
+    year: 2023-Present
+    achievements:
+      - "Piloté la refonte d'un projet e-commerce legacy, adoptant la Clean Architecture pour améliorer la maintenabilité et la testabilité du système. Séparation en microservices pour assurer une meilleure gestion des risques et une indépendance opérationnelle entre les différents e-shops."
+      - "Implémenté le Test Driven Development (TDD) pour renforcer la qualité du code, assurant une couverture complète et des tests d'intégration rigoureux pour les nouvelles fonctionnalités et les révisions de code."
+      - "Créé et dispensé une formation interne sur la Clean Architecture et les meilleures pratiques de développement en Laravel, renforçant les compétences de l'équipe et assurant une compréhension uniforme des principes de développement propre."
+      - "Mentoré des développeurs juniors, stagiaires, et alternants, partageant des connaissances étendues sur Laravel, les pratiques de développement sécurisé et les systèmes d'exploitation Linux."
+      - "Facilité la communication des détails techniques à des parties prenantes non-techniques, traduisant des concepts complexes en termes compréhensibles, assurant un soutien global au projet et une adhésion aux changements technologiques parmi les parties prenantes."
+      - "Développé et maintenu un package Laravel pour la synchronisation des packages JSON, améliorant l'efficacité de la gestion des dépendances entre plusieurs projets."
+      - "Contribué à un système centralisé d'authentification inter-services, intégrant des règles complexes et implémentant des tests pour assurer la sécurité et la conformité des processus d'authentification."
+      - "Implémenté une interface de gestion des équipes en Vue.js avec optimisation des temps de réponse grâce à un store centralisé, améliorant significativement l'expérience utilisateur."
+
+  - role: Développeur Backend Laravel
+    company: ObjetRama
+    year: 2022-2023
+    achievements:
+      - "Refonte et modularisation d'un projet e-commerce legacy avec Laravel, améliorant la stabilité et réduisant le risque de défaillances simultanées sur 12 e-shops."
+      - "Implémenté un système de double validation des commandes pour augmenter la sécurité des transactions."
+      - "Appliqué les principes SOLID et des patterns de conception pour améliorer la lisibilité et la fiabilité du code."
+      - "Dockérisé l'ensemble du projet pour faciliter le déploiement continu avec GitLab sur un VPS OVH."
+      - "Formé l'équipe aux principes de base du développement PHP en utilisant le modèle MVC."
+      - "Mentoré et formé un stagiaire en développement web avec Laravel, qui a été par la suite recruté."
+      - "Développé un système de synchronisation des données entre le CRM et le site e-commerce en utilisant Express.js, améliorant l'efficacité de la gestion des données clients."
+      - "Implémenté une tâche cron Laravel pour l'exportation des commandes vers SAP, facilitant la gestion et le suivi des commandes."
+      - "Développé des applications Laravel pour automatiser la récupération et le classement des images de produits en fonction des règles métiers établies, optimisant ainsi le flux de travail des graphistes et assurant une cohérence visuelle."
+      - "Conçu et implémenté un système de notifications automatisé pour les commandes en utilisant Laravel, améliorant significativement la réactivité et l'efficacité des processus de gestion des commandes, y compris le suivi et la résolution des erreurs de paiement et des commandes en attente."
+      - "Créé une interface graphique, une API et un bot Slack pour récupérer et gérer les fichiers de données de vente de Mirakl, facilitant l'accès et l'analyse des données de vente."
+
+  - role: Développeur Front-End
+    time: Nov 2021 - Jan 2022
+    company: Senoee
+    details: |
+      - Membre clé d'une équipe multidisciplinaire composée de 2 développeurs front-end, 2 développeurs back-end, un data analyste, 2 PO, un sponsor et un commercial.
+      - Intégration des maquettes et de l'API en utilisant React avec Redux dans un environnement Agile.
+      - Proposition et mise en œuvre de Vite pour l'environnement de développement, réduisant le temps de démarrage de l'application de 1m30s à moins de 3 secondes.
+  - role: Cofondateur, CTO et Développeur
+    time: Jan 2021 - Oct 2021
+    company: Apollo Immo
+    details: |
+      - Cofondateur et CTO d'une startup de location immobilière à portée nationale.
+      - Dirigé une équipe de 5 développeurs pour créer le site Apollo-Immo, utilisant des technologies comme React, Symfony, et API Platform.
+      - Élaboration et mise en œuvre de plans pour l'intégration de nouvelles technologies et refontes majeures.
+      - Gestion des risques techniques et élaboration de plans d'atténuation.
+      - Priorisation des fonctionnalités en fonction de leur impact sur les utilisateurs et les objectifs commerciaux.
+      - Recrutement de développeurs stagiaires, freelances et alternants.
+      - Création d'un générateur de contrats pour les parties prenantes.
+
+
+skills:
+  technical:
+    - "PHP, Laravel & Symfony: Expertise en refonte de systèmes e-commerce et implémentation de microservices avec une forte orientation vers la maintenabilité et la performance."
+    - "JavaScript, TypeScript, Vue.js: Développement d'interfaces utilisateur interactives pour des applications web en tenant compte des meilleures pratiques UX/UI."
+    - "Clean Architecture & Event Sourcing: Utilisés pour structurer des projets selon des principes de design solide, améliorant ainsi la testabilité et la maintenance. Inclus la modélisation du métier et la création de story mappings pour aligner étroitement les développements IT avec les besoins métiers."
+    - "Docker, CI/CD, GitLab, OVH VPS: Configuration et gestion des environnements de développement et de production pour optimiser la livraison continue de logiciels."
+  soft:
+    - "Mentorat et formation: Mentorat continu de développeurs juniors et stagiaires, focalisé sur l'amélioration des compétences techniques et la préparation à des rôles de développement plus avancés."
+    - "Participation active dans des projets Agile: Engagé dans l'application des principes Agile en tant que développeur, incluant la participation à la planification itérative, au développement de l'ubiquitous language avec les équipes métier pour assurer une compréhension commune, et à l'adaptation continue aux changements pour répondre efficacement aux exigences du projet."
+    - "Communication avec parties prenantes non-techniques: Explication efficace des concepts techniques complexes pour assurer la compréhension et le soutien des parties prenantes métiers et techniques."
+languages:
+  - English: B2 - Utilisé quotidiennement dans un contexte professionnel international pour la communication et la documentation technique.
+  - Spanish: Native - Avantage dans la communication avec des clients et des partenaires en Amérique latine.
+interests:
+  - Danses latines: Passion pour la compétition qui reflète le dévouement et la discipline personnelle.
+  - Vélo: Activité régulière pour le fitness, démontrant engagement envers la santé personnelle et la gestion du stress.
+  - Restauration mécanique: Intérêt pour la résolution de problèmes complexes et l'application de compétences techniques au-delà du domaine informatique.
 
 certifications:
   title: Certifications
