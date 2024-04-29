@@ -154,14 +154,6 @@ projects:
         tagline: "Une application de base de données de films basé sur limewire (Laravel)."
 
 
-oss:
-  title: Contributions OSS
-  intro: >
-    Découvrez mes contributions à des communautés de développement, centrées sur le partage de connaissances et des bonnespratiques.
-  contributions:
-    - title: Craftsmanship at Ancyr Academy
-      link: "https://discord.gg/ancyracademy"  
-      tagline: "Contributions à la communauté par le mentorat et l'éducation sur les pratiques avancées de développement PHP."
 
 
 footer: >
