@@ -17,7 +17,7 @@ sidebar:
     email: vanmakdavid@gmail.com
     phone: +33 6 38 02 68 51
     citizenship: Israel
-    website: github.com/Slourp 
+    website: github.com/Slourp/cv
     linkedin: davidvanmak
     github: slourp
     gitlab: peuks
@@ -26,8 +26,8 @@ sidebar:
     languages:
       title: Languages
       info:
-        - idiom: Spanish
-          level: Professional
+        - idiom: Français
+          level: Langue maternelle
         - idiom: Anglais
           level: B2
         - idiom: Espagnol
@@ -77,7 +77,8 @@ experiences:
   title: Expériences
   info:
     - role: Développeur Backend Laravel
-      time: 2023 - Présent
+      time: Jul 2023 - Présent
+      
       company: Plus que pro
       details: |
         Développeur backend expérimenté, spécialisé dans la gestion de plusieurs projets simultanément. Responsable de la normalisation des processus de développement en collaboration avec les équipes QA pour renforcer la testabilité et la qualité des applications.
@@ -90,7 +91,7 @@ experiences:
           - Contribué au développement d'un système centralisé d'authentification inter-services, renforçant la sécurité et la conformité des processus.
           - Implémenté des interfaces de gestion des équipes en Vue.js, optimisant les temps de réponse grâce à un store centralisé.
     - role: Développeur Backend Laravel
-      time: 2022 - 2023
+      time: Fev 2022 - Jun 2023
       company: ObjetRama
       details: |
         Engagé dans la refonte et la modularisation d'un projet e-commerce legacy utilisant Laravel, contribuant à améliorer significativement la stabilité et à réduire les risques de défaillances simultanées sur 12 e-shops.
