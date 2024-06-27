@@ -104,7 +104,7 @@ experiences:
         - **Dockérisation** : Dockérisé l'ensemble du projet, permettant un déploiement continu fluide avec GitLab et réduisant les temps de mise en production.
         - **Formation et Mentorat** : Formé l'équipe aux principes de base du développement PHP et mentoré un stagiaire, aboutissant à son recrutement, démontrant mes capacités à développer les compétences de l'équipe.
         - **Synchronisation des Données** : Développé un système de synchronisation des données entre le CRM et le site e-commerce via Express.js, améliorant l'efficacité de la gestion des données clients.
-        - **Automatisation des Processus** : Mis en place une tâche cron Laravel pour l'exportation automatique des commandes vers SAP, optimisant la gestion et le suivi des commandes.
+        - **Automatisation des Processus** : Mise en place une tâche cron Laravel pour l'exportation automatique des commandes vers SAP, optimisant la gestion et le suivi des commandes.
         - **Automatisation des Flux de Travail** : Créé des applications Laravel pour automatiser la récupération et le classement des images de produits, augmentant la productivité des graphistes de.
         - **Notifications Automatisées** : Conçu un système de notifications automatisé pour les commandes, augmentant la réactivité et réduisant les erreurs de paiement et les commandes en attente.
         - **Intégration de Mirakl** : Développé une interface graphique, une API et un bot Slack pour gérer les fichiers de données de vente de Mirakl, facilitant l'accès et l'analyse des données de vente.
@@ -150,9 +150,12 @@ projects:
       - title: Dashboard blog
         link: "https://gitlab.com/peuks/event_source"
         tagline: "Proof of concept d'event sourcing & cqrs en utilisant laravel spatie, shadcn ui et vuejs"
+      - title: Symfony cqrs event sourcing
+        tagline: "Proof of concept du cqrs et event sourcing en utilisant symfony et du tdd"
+        link: "https://gitlab.com/peuks/cqrs_event_sourcing_symfony"
       - title: Bask-it
         link: "https://gitlab.com/peuks/laravel_vuejs"
-        tagline: "E-commerce optimisé avec TDD, CQRS et DDD pour un shopping sans couture, basé sur Vue.js et Shadcn UI."
+        tagline: "E-commerce optimisé avec TDD, CQRS et DDD pour un shopping , basé sur Vue.js et Shadcn UI."
       - title: Movies
         link: "https://github.com/Slourp/movies"
         tagline: "Une application de base de données de films basé sur limewire (Laravel)."
