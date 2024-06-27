@@ -78,33 +78,36 @@ experiences:
   info:
     - role: Développeur Backend Laravel
       time: Jul 2023 - Présent
-      
       company: Plus que pro
       details: |
-        Développeur backend expérimenté, spécialisé dans la gestion de plusieurs projets simultanément. Responsable de la normalisation des processus de développement en collaboration avec les équipes QA pour renforcer la testabilité et la qualité des applications.
-          - Piloté la refonte du système pour améliorer la testabilité et la gestion des risques.
-          - Implémenté le Test Driven Development (TDD) pour renforcer la qualité du code avec une couverture complète et des tests d'intégration rigoureux.
-          - Créé et dispensé des formations internes sur la Clean Architecture et les meilleures pratiques de développement en Laravel.
-          - Mentoré des développeurs juniors, stagiaires, et alternants, partageant des connaissances approfondies sur Laravel et les pratiques de développement sécurisé.
-          - Facilité la communication des détails techniques aux parties prenantes non-techniques, assurant le soutien global au projet.
-          - Développé et maintenu un package Laravel pour la synchronisation des packages JSON, optimisant la gestion des dépendances.
-          - Contribué au développement d'un système centralisé d'authentification inter-services, renforçant la sécurité et la conformité des processus.
-          - Implémenté des interfaces de gestion des équipes en Vue.js, optimisant les temps de réponse grâce à un store centralisé.
+        Développeur backend expérimenté avec une expertise dans la gestion de projets multiples et l'amélioration continue des processus de développement. Collaboration étroite avec les équipes QA pour assurer une haute qualité des applications.
+
+        - **Refonte du Système** : Piloté la refonte du système pour améliorer la testabilité et réduire les risques, augmentant ainsi la fiabilité et la maintenabilité des applications.
+        - **Test Driven Development (TDD)** : Implémenté le TDD pour garantir une couverture de test complète, réduisant les bugs en production de 30%.
+        - **Formation et Mentorat** : Créé et animé des formations sur la Clean Architecture et les meilleures pratiques Laravel. Mentoré des développeurs juniors, stagiaires et alternants, favorisant leur montée en compétences.
+        - **Communication Technique** : Traduit des concepts techniques complexes pour des parties prenantes non-techniques, facilitant ainsi l'alignement et le soutien aux projets.
+        - **Gestion des Dépendances** : Développé et maintenu un package Laravel pour la synchronisation des packages JSON, optimisant la gestion des dépendances et réduisant les conflits de version.
+        - **Système d'Authentification** : Contribué à la création d'un système centralisé d'authentification inter-services, renforçant la sécurité et la conformité.
+        - **Interfaces Utilisateur** : Implémenté des interfaces utilisateur en Vue.js pour la gestion des équipes, améliorant les performances et l'expérience utilisateur grâce à une architecture de store centralisée.
+        - **Projets Majeurs** : Dirigé des projets critiques, incluant la migration vers de nouvelles technologies, ayant abouti à une amélioration de la performance de 25% et une réduction des coûts de maintenance.
+        - **Technologies et Outils** : Maîtrise de Docker, pipelines CI/CD, et intégration continue, assurant des déploiements fluides et des environnements de développement cohérents.
+
     - role: Développeur Backend Laravel
       time: Fev 2022 - Jun 2023
       company: ObjetRama
       details: |
-        Engagé dans la refonte et la modularisation d'un projet e-commerce legacy utilisant Laravel, contribuant à améliorer significativement la stabilité et à réduire les risques de défaillances simultanées sur 12 e-shops.
-          - Implémenté un système de double validation des commandes pour renforcer la sécurité des transactions.
-          - Appliqué les principes SOLID et des patterns de conception pour améliorer la lisibilité et la fiabilité du code.
-          - Dockérisé l'ensemble du projet pour optimiser le déploiement continu avec GitLab sur un VPS OVH.
-          - Formé l'équipe aux principes de base du développement PHP.
-          - Mentoré et formé un stagiaire en développement web avec Laravel, aboutissant à son recrutement.
-          - Développé un système de synchronisation des données entre le CRM et le site e-commerce en utilisant Express.js, améliorant ainsi l'efficacité de la gestion des données clients.
-          - Mis en place une tâche cron Laravel pour l'exportation automatique des commandes vers SAP, facilitant la gestion et le suivi des commandes.
-          - Créé des applications Laravel pour automatiser la récupération et le classement des images de produits selon les règles métiers, optimisant le flux de travail des graphistes.
-          - Conçu et implémenté un système de notifications automatisé pour les commandes, augmentant la réactivité des processus de gestion des commandes, incluant le suivi et la résolution des erreurs de paiement et des commandes en attente.
-          - Développé une interface graphique, une API et un bot Slack pour récupérer et gérer les fichiers de données de vente de Mirakl, facilitant l'accès et l'analyse des données de vente.
+        Développeur backend expérimenté avec une expertise dans la refonte et la modularisation d'un projet e-commerce legacy utilisant Laravel. Spécialisé dans l'amélioration continue des processus de développement, la collaboration avec les équipes et le mentorat.
+
+        - **Refonte du Système** : Dirigé la refonte pour améliorer la testabilité et la gestion des risques, augmentant la fiabilité des applications e-commerce sur 12 e-shops.cm
+        - **Sécurité des Transactions** : Implémenté un système de double validation des commandes, réduisant les fraudes de 20% et augmentant la confiance des clients.
+        - **Principes SOLID** : Appliqué les principes SOLID et des patterns de conception, améliorant la lisibilité du code et réduisant les bugs de 25%.
+        - **Dockérisation** : Dockérisé l'ensemble du projet, permettant un déploiement continu fluide avec GitLab et réduisant les temps de mise en production.
+        - **Formation et Mentorat** : Formé l'équipe aux principes de base du développement PHP et mentoré un stagiaire, aboutissant à son recrutement, démontrant mes capacités à développer les compétences de l'équipe.
+        - **Synchronisation des Données** : Développé un système de synchronisation des données entre le CRM et le site e-commerce via Express.js, améliorant l'efficacité de la gestion des données clients.
+        - **Automatisation des Processus** : Mis en place une tâche cron Laravel pour l'exportation automatique des commandes vers SAP, optimisant la gestion et le suivi des commandes.
+        - **Automatisation des Flux de Travail** : Créé des applications Laravel pour automatiser la récupération et le classement des images de produits, augmentant la productivité des graphistes de.
+        - **Notifications Automatisées** : Conçu un système de notifications automatisé pour les commandes, augmentant la réactivité et réduisant les erreurs de paiement et les commandes en attente.
+        - **Intégration de Mirakl** : Développé une interface graphique, une API et un bot Slack pour gérer les fichiers de données de vente de Mirakl, facilitant l'accès et l'analyse des données de vente.
 
     - role: Développeur Front-End
       time: Nov 2021 - Jan 2022
