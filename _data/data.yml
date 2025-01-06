@@ -43,8 +43,7 @@ sidebar:
 career-profile:
     title: Professional Profile
     summary: |
-      Développeur full-stack spécialisé en PHP (Laravel, Symfony), je recherche un poste où mes compétences en TDD, Docker et CI/CD contribueront à livrer des applications robustes et performantes. Avec une forte expérience dans la conception d’architectures modulaires et l'intégration front-end (Vue.js), j’apporte une attention particulière à la sécurité, à la qualité du code (PSR, SOLID) et à la performance.
-
+      Développeur full-stack depuis 2020, spécialisé en PHP (Laravel, Symfony), je recherche un poste où mes compétences en TDD, Docker et CI/CD contribueront à livrer des applications robustes et performantes. Avec une forte expérience dans la conception d’architectures modulaires et l'intégration front-end (Vue.js), j’apporte une attention particulière à la sécurité, à la qualité du code (PSR, SOLID) et à la performance.
       Habitué à travailler en mode Agile, je collabore avec divers profils (Product Owners, QA, Ops) pour aligner la technique sur les objectifs métier. J’aime partager mes connaissances via du mentorat et la publication d’articles, dans une démarche d’amélioration continue. Mon ambition : contribuer à une équipe dynamique, résoudre des problématiques complexes et délivrer des solutions qui apportent de la valeur tant à l’entreprise qu’aux utilisateurs finaux.
 
 skills:  # ==> Section supplémentaire pour une lecture rapide (utile aux RH/Lead Tech)
