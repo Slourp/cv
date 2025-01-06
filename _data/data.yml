@@ -91,25 +91,25 @@ experiences:
       details: |
         Développeur backend sur un projet innovant autour de l’immobilier et de l’IA. Danim s’appuie sur une architecture hexagonale en PHP (Symfony), combinant CQRS, DDD et event sourcing.
         - **Équipe** : Composée de 3 développeurs backend (incluant le lead et le CTO) et 3 développeurs frontend.
-        - **Fonctionnalités IA** : Intégration de cas d’utilisation pour le traitement d’images et de vidéos via l’IA, facilitant la redécoration et la retouche automatique de photos de biens.
         - **Collaboration Technique** : Travail étroit avec le lead developer pour concevoir et étendre les API existantes.
+        - **Fonctionnalités IA** : Intégration de cas d’utilisation pour le traitement d’images et de vidéos via l’IA, facilitant la redécoration et la retouche automatique de photos de biens.
         - **Utilisation de LLM** : Mise en place d’outils basés sur des modèles de langage (par ex. ChatGPT), automatisant certaines tâches et améliorant la productivité.
         - **Test de Mutation** : Mise en œuvre de tests de mutation pour vérifier la pertinence de la suite de tests et en renforcer la robustesse.
         - **Plugins Zsh** : Création de plugins pour le terminal (gestion Docker, commandes Laravel/Symfony), automatisant une partie du flux de travail et la gestion de la stack.
         - **Documentation** : Rédaction de documentations techniques sur l’architecture (CQRS, DDD, event sourcing), l’IA et les stratégies de test.
-
+    
     - role: Développeur Backend Laravel
       time: Juil 2023 - Nov 2024
       company: Plus que pro (ESN)
       details: |
-        J’ai travaillé au sein de l’équipe outils internes sur divers projets, principalement full stack, destinés à des produits externes et en majorité internes. 
-        Les projets allaient d’applications Laravel à des applications SPA (comme Limewire en Vue.js), en passant par des sites WordPress, et incluaient également un projet DevOps pour analyser les dépendances des différents projets.
-
-        - **Équipe** : Composée de 4 développeurs backend, 1 développeur frontend, 1 lead developer, 1 QA et un PO.
+        J’ai travaillé au sein de l’équipe outils internes sur divers projets, principalement full stack, destinés à des produits externes et majoritairement internes. 
+        Les projets incluaient des applications Laravel, des applications SPA (comme Limewire en Vue.js), des sites WordPress, ainsi qu’un projet DevOps pour analyser les dépendances des différents projets.
+    
+        - **Équipe** : Composée de 7 membres, incluant 4 développeurs backend, 1 développeur frontend, 1 lead developer, 1 QA et un Product Owner.
+        - **Collaboration Transversale** : Collaboré avec les équipes QA, DevOps et autres développeurs sur divers projets pour analyser les dépendances, assurer la cohérence et optimiser la performance des applications.
+        - **Équipe Outils Internes** : Contribué à l’équipe dédiée aux outils internes en garantissant la qualité grâce à la mise en place de standards et de bonnes pratiques.
         - **Refonte Système** : Modernisation et montée en version de projets existants, améliorant la testabilité, la fiabilité et la maintenabilité.
         - **Développement Piloté par les Tests (TDD)** : Mise en place de tests pour rehausser la qualité du code et réduire les bugs en production.
-        - **Collaboration Transversale** : Travail en synergie avec QA, DevOps et autres développeurs, garantissant la cohérence et la performance des applications.
-        - **Équipe Outils Internes** : Participation à l’équipe dédiée aux outils internes, avec une responsabilité sur la qualité (mise en place de standards et de bonnes pratiques).
         - **Formation & Mentorat** : Animation d’une session sur la conception des tests et l’architecture modulaire. Accompagnement d’un développeur junior dans l’usage de Laravel et l’implémentation de fonctionnalités Web3.
         - **Front-End** : Intervention sur des interfaces Blade, Vue.js (avec Inertia) et maintenance d’un projet interne de communication sous WordPress, démontrant une grande polyvalence.
         - **Extraction & Rapports** : Génération de rapports et développement de fonctionnalités d’extraction de données pour des analyses ultérieures.
@@ -125,16 +125,16 @@ experiences:
         En charge d’un projet legacy grand compte, d'une grande partie des outils internes et de l’infrastructure ainsi de la formation interne, incluant des workflows no-code.
 
         - **Équipe** : Collaboration étroite avec 4 développeurs backend, 1 PO et 1 data analyste.
+        - **Collaboration Customer Success** : Analyse des besoins pour améliorer la détection de fraudes et mettre en place un système de relance client (notifications Slack/Teams).
+        - **Formation Équipe** : Animation d’une formation aux fondamentaux de Symfony, renforçant les compétences internes en back-end.
+        - **Interface Technique** : Rôle d’intermédiaire entre la direction, le prestataire du site e-commerce multi-vendeurs et Mirakl, traduisant les besoins métiers en aspects techniques et assurant un suivi rigoureux des évolutions.
         - **Reprise & Mise à Niveau** : Migration du site e-commerce legacy, correction de bugs critiques et refonte partielle de l’architecture.
         - **Tests & Qualité** : Introduction de tests (PHPUnit) pour réduire les régressions et consolider la fiabilité, auparavant peu ou pas assurée.
         - **Synchronisation de Données** : Conception d’outils internes (Express.js, Laravel) pour automatiser le transfert de données entre Mirakl, SAP et Salesforce, garantissant la cohérence du flux de ventes.
         - **Flux No-Code/Low-Code** : Mise en place et maintenance de workflows via Zapier et Make, facilitant l’automatisation des processus sans développement lourd.
         - **Extraction et Analyse** : Collaboration étroite avec les data analysts pour extraire, centraliser et exploiter les données de commandes et de ventes.
-        - **Collaboration Customer Success** : Analyse des besoins pour améliorer la détection de fraudes et mettre en place un système de relance client (notifications Slack/Teams).
-        - **Formation Équipe** : Animation d’une formation aux fondamentaux de Symfony, renforçant les compétences internes en back-end.
         - **Dockerisation** : Conteneurisation d’une grande partie des applications internes, facilitant les déploiements et unifiant les environnements.
         - **Sécurité & Prévention** : Gestion proactive des certificats SSL et coordination avec un prestataire externe pour renforcer la sécurité de l’infrastructure.
-        - **Interface Technique** : Rôle d’intermédiaire entre la direction, le prestataire du site e-commerce multi-vendeurs et Mirakl, traduisant les besoins métiers en aspects techniques et assurant un suivi rigoureux des évolutions.
 
     - role: Front-End Developer
       time: Nov 2021 - Jan 2022
@@ -142,7 +142,7 @@ experiences:
       details: |
         Dans un contexte Agile, j’ai assuré le développement front-end d’un outil d’aide à la décision pour l’analyse des risques dans le domaine assurantiel, en utilisant React + Redux.
 
-        - **Équipe** : Composée d’un lead dev front, de moi-même, de 2 développeurs backend Python, d’un commercial et de 2 PO.
+        - **Équipe** : Composée d’un lead dev front, de 2 développeurs backend Python, d’un commercial et de 2 PO.
         - **Intégration Maquettes** : Création d’interfaces dynamiques, interactions complexes avec l’API.
         - **Outil de Build Vite** : Temps de démarrage divisé par 5, offrant un gain de productivité notable.
         - **Collaboration Backend** : Échanges quotidiens avec l’équipe Symfony pour garantir un flux de données fluide.
