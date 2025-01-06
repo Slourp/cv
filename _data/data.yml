@@ -61,13 +61,13 @@ education:
     title: Education
     info:
       - degree: Développement Web et Mobile, Certification RNCP Niveau 5
-        institution: Elan Formation
+        institution: Elan Formation - Strasbourg
         time: Sep 2021 - May 2021
         details: Cours complet en développement web et mobile couvrant différentes technologies.
           - Certification RNCP Niveau 5
           - Développement Web et Mobile
       - degree: Bootcamp Ruby on Rails
-        institution: LeWagon
+        institution: LeWagon - Marseille
         time: Jan 2020 - Mar 2020
         details: Participation à un bootcamp intensif axé sur Ruby on Rails.
           - Ruby on Rails
