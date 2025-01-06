@@ -1,22 +1,22 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output.
+# Attention : Même une petite erreur de syntaxe peut provoquer un échec à l'exécution.
 #
 
 sidebar:
-    position: right # position of the sidebar: left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    position: right # position de la barre latérale : left ou right
+    about: True # mettre à False ou commenter la ligne si vous souhaitez supprimer la section "comment utiliser ?"
+    education: True # mettre à False si vous souhaitez que l'éducation apparaisse dans la section principale plutôt que dans la barre latérale
 
-    # Profile information
+    # Informations de profil
     name: David Vanmak
-    tagline: Backend Developer | PHP, Laravel, Symfony 
+    tagline: Développeur PHP, Laravel, Symfony, Vue.js TDD et Clean Architecture
 
-    # avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    # avatar: profile.png  # placez une image 100x100 dans le dossier /assets/images/ et indiquez le nom du fichier ici.
 
-    # Sidebar links
+    # Liens de la barre latérale
     email: vanmakdavid@gmail.com
     phone: +33 6 38 02 68 51
-    citizenship: Israel
+    citizenship: Israël
     website: slourp.github.io
     linkedin: davidvanmak
     github: slourp
@@ -24,108 +24,135 @@ sidebar:
     # pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
-      title: Languages
+      title: Langues
       info:
-        - idiom: French
-          level: Native
-        - idiom: English
+        - idiom: Français
+          level: Natif
+        - idiom: Anglais
           level: B2
-        - idiom: Spanish
-          level: Native
+        - idiom: Espagnol
+          level: Natif
 
     interests:
-      title: Interests
+      title: Centres d'intérêt
       info:
-        - item: Latin dances
-          link:
-
-        - item: Cycling
-          link:
-
-        - item: Mechanical restoration
-          link:
+        - item: Danses latines
+        - item: Cyclisme
+        - item: Restauration mécanique
 
 career-profile:
     title: Professional Profile
     summary: |
-      Passionate backend developer, specializing in PHP and a strong advocate of software craftsmanship. My expertise includes Clean Architecture and Test-Driven Development (TDD), which are essential for optimizing maintainability, testability, and scalability of applications. Committed to continuous improvement of development processes, I work effectively in teams and can produce autonomously. Dedicated to learning and sharing knowledge, I constantly seek to integrate best practices and explore the latest technological innovations in web development.
+      Développeur full-stack spécialisé en PHP (Laravel, Symfony), je recherche un poste où mes compétences en TDD, Docker et CI/CD contribueront à livrer des applications robustes et performantes. Avec une forte expérience dans la conception d’architectures modulaires et l'intégration front-end (Vue.js), j’apporte une attention particulière à la sécurité, à la qualité du code (PSR, SOLID) et à la performance.
+
+      Habitué à travailler en mode Agile, je collabore avec divers profils (Product Owners, QA, Ops) pour aligner la technique sur les objectifs métier. J’aime partager mes connaissances via du mentorat et la publication d’articles, dans une démarche d’amélioration continue. Mon ambition : contribuer à une équipe dynamique, résoudre des problématiques complexes et délivrer des solutions qui apportent de la valeur tant à l’entreprise qu’aux utilisateurs finaux.
+
+skills:  # ==> Section supplémentaire pour une lecture rapide (utile aux RH/Lead Tech)
+    title: Key Skills
+    info:
+      - PHP 8, Laravel, Symfony
+      - JavaScript (Vue.js, React)
+      - Docker, CI/CD (GitLab, GitHub Actions)
+      - TDD, SOLID, PSR, architecture modulaire
+      - REST APIs, Express.js, Microservices
+      - Méthodes Agiles (Scrum), gestion de projet (ClickUp, Jira, Trello)
+      - MySQL, MariaDB, optimisation de requêtes, synchronisation de données
 
 education:
     title: Education
     info:
-      - degree: Web and Mobile Development, RNCP Level 5 Certification
+      - degree: Développement Web et Mobile, Certification RNCP Niveau 5
         institution: Elan Formation
         time: Sep 2021 - May 2021
-        details: Complete web and mobile development course focusing on various technologies.
-          - RNCP Level 5 Certification
-          - Web and Mobile Development
-      - degree: Ruby on Rails Bootcamp
+        details: Cours complet en développement web et mobile couvrant différentes technologies.
+          - Certification RNCP Niveau 5
+          - Développement Web et Mobile
+      - degree: Bootcamp Ruby on Rails
         institution: LeWagon
         time: Jan 2020 - Mar 2020
-        details: Participated in an intensive bootcamp focused on Ruby on Rails.
+        details: Participation à un bootcamp intensif axé sur Ruby on Rails.
           - Ruby on Rails
-          - Intensive Bootcamp
-      - degree: Bachelor's in Economics and Management, Management Path
-        institution: University of Strasbourg
+          - Bootcamp intensif
+      - degree: Licence en Économie et Gestion, parcours Management
+        institution: Université de Strasbourg
         time: 2015 - 2019
-        details: Bachelor's degree in economics and management with a focus on business management.
-          - Economics and Management
-          - Business Management
+        details: Licence en économie et gestion avec une spécialisation en management.
+          - Économie et Gestion
+          - Management d’entreprise
 
 experiences:
-  title: Experiences
+  title: Expériences
   info:
-    - role: Backend Developer Laravel
-      time: Jul 2023 - Present
-      company: Plus que pro
+    - role: Backend Developer
+      time: Nov 2024 - Jan 2025
+      company: Danim
       details: |
-        Experienced backend developer with expertise in managing multiple projects and continuous improvement of development processes. Collaborated closely with QA teams to ensure high application quality.
+        Développeur backend sur un projet innovant autour de l’immobilier et de l’IA. Danim s’appuie sur une architecture hexagonale en PHP (Symfony), combinant CQRS, DDD et event sourcing.
 
-        - **System Overhaul**: Led the system overhaul to improve testability and reduce risks, enhancing the reliability and maintainability of applications.
-        - **Test Driven Development (TDD)**: Implemented TDD to ensure complete test coverage, reducing production bugs by 30%.
-        - **Training and Mentorship**: Created and led training sessions on Clean Architecture and Laravel best practices. Mentored junior developers, interns, and apprentices, promoting skill growth.
-        - **Technical Communication**: Translated complex technical concepts for non-technical stakeholders, facilitating alignment and project support.
-        - **Dependency Management**: Developed and maintained a Laravel package for JSON package synchronization, optimizing dependency management and reducing version conflicts.
-        - **Authentication System**: Contributed to creating a centralized authentication system across services, strengthening security and compliance.
-        - **User Interfaces**: Implemented user interfaces in Vue.js for team management, improving performance and user experience through a centralized store architecture.
-        - **Major Projects**: Led critical projects, including migration to new technologies, resulting in a 25% performance improvement and reduced maintenance costs.
-        - **Technologies and Tools**: Expertise in Docker, CI/CD pipelines, and continuous integration, ensuring smooth deployments and consistent development environments.
+        - **Fonctionnalités IA** : Intégration de cas d’utilisation pour le traitement d’images et de vidéos via l’IA, facilitant la redécoration et la retouche automatique de photos de biens.
+        - **Collaboration Technique** : Travail étroit avec le lead developer pour concevoir et étendre les API existantes.
+        - **Utilisation de LLM** : Mise en place d’outils basés sur des modèles de langage (par ex. ChatGPT), automatisant certaines tâches et améliorant la productivité.
+        - **Test de Mutation** : Mise en œuvre de tests de mutation pour vérifier la pertinence de la suite de tests et en renforcer la robustesse.
+        - **Plugins Zsh** : Création de plugins pour le terminal (gestion Docker, commandes Laravel/Symfony), automatisant une partie du flux de travail et la gestion de la stack.
+        - **Documentation** : Rédaction de documentations techniques sur l’architecture (CQRS, DDD, event sourcing), l’IA et les stratégies de test.
 
-    - role: Backend Developer Laravel
+    - role: Développeur Backend Laravel
+      time: Juil 2023 - Nov 2024
+      company: Plus que pro (ESN)
+      details: |
+        J’ai collaboré avec plusieurs équipes (développeurs, QA, DevOps) sur différents projets transverses pour fiabiliser les projets legacy via des tests, moderniser les applications et assurer une meilleure maintenabilité.
+
+        - **Refonte Système** : Modernisation et montée en version de projets existants, améliorant la testabilité, la fiabilité et la maintenabilité.
+        - **Développement Piloté par les Tests (TDD)** : Mise en place de tests pour rehausser la qualité du code et réduire les bugs en production.
+        - **Collaboration Transversale** : Travail en synergie avec QA, DevOps et autres développeurs, garantissant la cohérence et la performance des applications.
+        - **Équipe Outils Internes** : Participation à l’équipe dédiée aux outils internes, avec une responsabilité sur la qualité (mise en place de standards et de bonnes pratiques).
+        - **Formation & Mentorat** : Animation d’une session sur la conception des tests et l’architecture modulaire. Accompagnement d’un développeur junior dans l’usage de Laravel et l’implémentation de fonctionnalités Web3.
+        - **Front-End** : Intervention sur des interfaces Blade, Vue.js (avec Inertia) et maintenance d’un projet interne de communication sous WordPress, démontrant une grande polyvalence.
+        - **Extraction & Rapports** : Génération de rapports et développement de fonctionnalités d’extraction de données pour des analyses ultérieures.
+        - **Package Laravel** : Création d’un package d’analyse des dépendances de projet, en étroite collaboration avec DevOps et l’infrastructure pour harmoniser la gestion des bibliothèques et prévenir les conflits.
+        - **Sécurité & Conformité** : Participation à la mise en place d’un système d’authentification centralisé et à l’utilisation d’outils de sécurité, renforçant la conformité.
+        - **CI/CD, Docker** : Exploitation de pipelines CI/CD et de conteneurs Docker, assurant des déploiements fluides et des environnements de développement homogènes.
+
+    - role: Backend Developer Laravel | Symfony | ExpressJs
       time: Feb 2022 - Jun 2023
       company: ObjetRama
       details: |
-        Experienced backend developer specializing in redesigning and modularizing a legacy e-commerce project using Laravel. Focused on continuous improvement of development processes, team collaboration, and mentorship.
+        Développeur backend pour la modernisation d’un e-commerce legacy multi-vendeurs, destiné à de grands comptes. Missions principales : maintenance, correction de bugs, amélioration des requêtes et mise en place de tests (initialement inexistants). Intervention également sur divers outils internes optimisant les flux entre différents services (Mirakl, SAP, Salesforce).
 
-        - **System Redesign**: Led the redesign to improve testability and risk management, increasing reliability of e-commerce applications across 12 e-shops.
-        - **Transaction Security**: Implemented a double-order validation system, reducing fraud by 20% and increasing customer trust.
-        - **SOLID Principles**: Applied SOLID principles and design patterns, improving code readability and reducing bugs by 25%.
-        - **Dockerization**: Dockerized the entire project, enabling smooth continuous deployment with GitLab and reducing production times.
-        - **Training and Mentorship**: Trained the team on PHP development basics and mentored an intern, leading to their recruitment and demonstrating my ability to enhance team skills.
-        - **Data Synchronization**: Developed a system for synchronizing data between the CRM and the e-commerce site using Express.js, improving customer data management efficiency.
-        - **Process Automation**: Set up a Laravel cron job for automatic order exports to SAP, optimizing order management and tracking.
-        - **Workflow Automation**: Created Laravel applications to automate product image retrieval and sorting, boosting graphic designers' productivity.
-        - **Automated Notifications**: Designed an automated notification system for orders, increasing responsiveness and reducing payment errors and pending orders.
-        - **Mirakl Integration**: Developed a graphical interface, API, and Slack bot to manage Mirakl sales data files, facilitating access and analysis of sales data.
+        - **Reprise & Mise à Niveau** : Migration du site e-commerce legacy, correction de bugs critiques et refonte partielle de l’architecture.
+        - **Tests & Qualité** : Introduction de tests (PHPUnit) pour réduire les régressions et consolider la fiabilité, auparavant peu ou pas assurée.
+        - **Synchronisation de Données** : Conception d’outils internes (Express.js, Laravel) pour automatiser le transfert de données entre Mirakl, SAP et Salesforce, garantissant la cohérence du flux de ventes.
+        - **Flux No-Code/Low-Code** : Mise en place et maintenance de workflows via Zapier et Make, facilitant l’automatisation des processus sans développement lourd.
+        - **Extraction et Analyse** : Collaboration étroite avec les data analysts pour extraire, centraliser et exploiter les données de commandes et de ventes.
+        - **Collaboration Customer Success** : Analyse des besoins pour améliorer la détection de fraudes et mettre en place un système de relance client (notifications Slack/Teams).
+        - **Formation Équipe** : Animation d’une formation aux fondamentaux de Symfony, renforçant les compétences internes en back-end.
+        - **Dockerisation** : Conteneurisation d’une grande partie des applications internes, facilitant les déploiements et unifiant les environnements.
+        - **Sécurité & Prévention** : Gestion proactive des certificats SSL et coordination avec un prestataire externe pour renforcer la sécurité de l’infrastructure.
+        - **Interface Technique** : Rôle d’intermédiaire entre la direction, le prestataire du site e-commerce multi-vendeurs et Mirakl, traduisant les besoins métiers en aspects techniques et assurant un suivi rigoureux des évolutions.
 
     - role: Front-End Developer
       time: Nov 2021 - Jan 2022
       company: Senoee
       details: |
-        Key member of a multidisciplinary team including front-end developers, back-end developers, a data analyst, product owners, a sponsor, and a commercial representative. Responsible for front-end integration and improving development processes.
-          - Integrated mockups and developed interactions with the API using React with Redux in an Agile development framework.
-          - Proposed and implemented Vite as the build tool for the development environment, significantly reducing application startup time from 1 minute 30 seconds to less than 3 seconds, improving development efficiency.
+        Contexte Agile : participation au développement front-end (React + Redux) et à l’amélioration continue (performance, outils de build).
+
+        - **Intégration Maquettes** : Création d’interfaces dynamiques, interactions complexes avec l’API.
+        - **Outil de Build Vite** : Temps de démarrage divisé par 5, offrant un gain de productivité notable.
+        - **Collaboration Backend** : Échanges quotidiens avec l’équipe Symfony pour garantir un flux de données fluide.
+        - **Gestion de Tâches** : Suivi via Jira, respect des deadlines et visibilité claire du backlog.
+
     - role: Co-founder, CTO, and Developer
       time: Jan 2021 - Oct 2021
       company: Apollo Immo
       details: |
-        Co-founder and CTO of a nationwide real estate rental startup, responsible for leading technological development and innovation within the company.
-          - Led a team of 5 developers to build the Apollo-Immo website using advanced technologies such as React, Symfony, and API Platform.
-          - Developed and implemented strategies for integrating new technologies and major overhauls, ensuring alignment with the company's strategic goals.
-          - Managed technical risks associated with development projects and created mitigation plans to minimize potential impacts.
-          - Prioritized site features based on their potential impact on users and business objectives, ensuring effective and user-oriented market delivery.
-          - Recruited and trained intern, freelance, and apprentice developers, enhancing the development team's capacity.
-          - Designed and developed an automated contract generator to simplify and secure transactions between stakeholders.
+        Cofondateur d’une startup nationale de location immobilière, responsable de la stratégie technologique et de la mise en production rapide des fonctionnalités clés.
+
+        - **Encadrement Technique** : Équipe de 5 développeurs (React, Symfony, API Platform).
+        - **Feuilles de Route** : Planification des refontes, adoption de nouvelles technologies (Docker, CI/CD).
+        - **Gestion des Risques** : Identification et mitigation, garantissant la stabilité des mises en production.
+        - **Générateur de Contrats** : Automatisation administrative, réduisant les erreurs et gagnant un temps précieux.
+        - **Mentorat & Recrutement** : Encadrement de stagiaires, freelances, apprentis (mise en place de bonnes pratiques).
+        - **Gestion de Projet** : Utilisation de Trello pour coordonner l’équipe, planifier les sprints et assurer la visibilité.
 
 certifications:
   title: Certifications
@@ -135,29 +162,30 @@ certifications:
       end: 2023
       organization: Mirakl
       details: |
-        Obtained Mirakl Certification in September 2023.
+        Obtention de la certification Mirakl en septembre 2023, attestant de compétences avancées sur les marketplaces et l’intégration d’APIs Mirakl.
 
 projects:
     title: Projects
     assignments:
       - title: SkyFiles
         link: "https://gitlab.com/peuks/google_drive"
-        tagline: "Reinvent your online storage with our Google Drive clone. Built with Laravel, TDD, and clean architecture, integrating Vue.js TS for a smooth and modern user experience."
+        tagline: "Clone de Google Drive (Laravel, TDD, conception modulaire, Vue.js TS). Stockage en ligne avec une UX moderne."
       - title: Loots of Flow
         link: "https://gitlab.com/peuks/loots-of-flow"
-        tagline: "A competitor to Zapier built with Next.js, Shadcn UI, Acentiry UI, and TypeScript."
+        tagline: "Concurrent de Zapier basé sur Next.js, Shadcn UI, Acentiry UI, TypeScript. Automatisation et intégration d’APIs multiples."
       - title: Dashboard blog
         link: "https://gitlab.com/peuks/event_source"
-        tagline: "Proof of concept of event sourcing & CQRS using Laravel, Spatie, Shadcn UI, and Vue.js."
+        tagline: "Proof of concept d’event sourcing & CQRS (Laravel, Spatie, Shadcn UI, Vue.js) pour la traçabilité et la résilience."
       - title: Symfony CQRS Event Sourcing
-        tagline: "Proof of concept of CQRS and event sourcing using Symfony and TDD."
+        tagline: "Expérimentation de l’event sourcing en Symfony, validée par une stratégie de tests poussés (TDD)."
         link: "https://gitlab.com/peuks/cqrs_event_sourcing_symfony"
       - title: Bask-it
         link: "https://gitlab.com/peuks/laravel_vuejs"
-        tagline: "E-commerce optimized with TDD, CQRS, and DDD for a smooth shopping experience, based on Vue.js and Shadcn UI."
+        tagline: "E-commerce (Laravel + Vue.js), TDD, CQRS, DDD. Conçu pour la scalabilité et la fiabilité."
       - title: Movies
         link: "https://github.com/Slourp/movies"
-        tagline: "A movie database application based on Limewire (Laravel)."
+        tagline: "Application de base de données de films (Laravel), inspirée de Limewire. Gestion d’API externes."
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Conçu avec <i class="fas fa-heart"></i> par 
+    <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
