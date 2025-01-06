@@ -90,7 +90,7 @@ experiences:
       company: Danim
       details: |
         Développeur backend sur un projet innovant autour de l’immobilier et de l’IA. Danim s’appuie sur une architecture hexagonale en PHP (Symfony), combinant CQRS, DDD et event sourcing.
-
+        - **Équipe** : Composée de 3 développeurs backend (incluant le lead et le CTO) et 3 développeurs frontend.
         - **Fonctionnalités IA** : Intégration de cas d’utilisation pour le traitement d’images et de vidéos via l’IA, facilitant la redécoration et la retouche automatique de photos de biens.
         - **Collaboration Technique** : Travail étroit avec le lead developer pour concevoir et étendre les API existantes.
         - **Utilisation de LLM** : Mise en place d’outils basés sur des modèles de langage (par ex. ChatGPT), automatisant certaines tâches et améliorant la productivité.
@@ -102,8 +102,10 @@ experiences:
       time: Juil 2023 - Nov 2024
       company: Plus que pro (ESN)
       details: |
-        J’ai collaboré avec plusieurs équipes (développeurs, QA, DevOps) sur différents projets transverses pour fiabiliser les projets legacy via des tests, moderniser les applications et assurer une meilleure maintenabilité.
+        J’ai travaillé au sein de l’équipe outils internes sur divers projets, principalement full stack, destinés à des produits externes et en majorité internes. 
+        Les projets allaient d’applications Laravel à des applications SPA (comme Limewire en Vue.js), en passant par des sites WordPress, et incluaient également un projet DevOps pour analyser les dépendances des différents projets.
 
+        - **Équipe** : Composée de 4 développeurs backend, 1 développeur frontend, 1 lead developer, 1 QA et un PO.
         - **Refonte Système** : Modernisation et montée en version de projets existants, améliorant la testabilité, la fiabilité et la maintenabilité.
         - **Développement Piloté par les Tests (TDD)** : Mise en place de tests pour rehausser la qualité du code et réduire les bugs en production.
         - **Collaboration Transversale** : Travail en synergie avec QA, DevOps et autres développeurs, garantissant la cohérence et la performance des applications.
@@ -115,12 +117,14 @@ experiences:
         - **Sécurité & Conformité** : Participation à la mise en place d’un système d’authentification centralisé et à l’utilisation d’outils de sécurité, renforçant la conformité.
         - **CI/CD, Docker** : Exploitation de pipelines CI/CD et de conteneurs Docker, assurant des déploiements fluides et des environnements de développement homogènes.
 
+
     - role: Backend Developer Laravel | Symfony | ExpressJs
       time: Feb 2022 - Jun 2023
       company: ObjetRama
       details: |
-        Développeur backend pour la modernisation d’un e-commerce legacy multi-vendeurs, destiné à de grands comptes. Missions principales : maintenance, correction de bugs, amélioration des requêtes et mise en place de tests (initialement inexistants). Intervention également sur divers outils internes optimisant les flux entre différents services (Mirakl, SAP, Salesforce).
+        En charge d’un projet legacy grand compte, d'une grande partie des outils internes et de l’infrastructure ainsi de la formation interne, incluant des workflows no-code.
 
+        - **Équipe** : Collaboration étroite avec 4 développeurs backend, 1 PO et 1 data analyste.
         - **Reprise & Mise à Niveau** : Migration du site e-commerce legacy, correction de bugs critiques et refonte partielle de l’architecture.
         - **Tests & Qualité** : Introduction de tests (PHPUnit) pour réduire les régressions et consolider la fiabilité, auparavant peu ou pas assurée.
         - **Synchronisation de Données** : Conception d’outils internes (Express.js, Laravel) pour automatiser le transfert de données entre Mirakl, SAP et Salesforce, garantissant la cohérence du flux de ventes.
@@ -136,8 +140,9 @@ experiences:
       time: Nov 2021 - Jan 2022
       company: Senoee
       details: |
-        Contexte Agile : participation au développement front-end (React + Redux) et à l’amélioration continue (performance, outils de build).
+        Dans un contexte Agile, j’ai assuré le développement front-end d’un outil d’aide à la décision pour l’analyse des risques dans le domaine assurantiel, en utilisant React + Redux.
 
+        - **Équipe** : Composée d’un lead dev front, de moi-même, de 2 développeurs backend Python, d’un commercial et de 2 PO.
         - **Intégration Maquettes** : Création d’interfaces dynamiques, interactions complexes avec l’API.
         - **Outil de Build Vite** : Temps de démarrage divisé par 5, offrant un gain de productivité notable.
         - **Collaboration Backend** : Échanges quotidiens avec l’équipe Symfony pour garantir un flux de données fluide.
@@ -149,7 +154,7 @@ experiences:
       details: |
         Cofondateur d’une startup nationale de location immobilière, responsable de la stratégie technologique et de la mise en production rapide des fonctionnalités clés.
 
-        - **Encadrement Technique** : Équipe de 5 développeurs (React, Symfony, API Platform).
+        - **Équipe** : Une équipe de cinq développeurs comprenant deux back-end, deux front-end et un product owner, utilisant les technologies React, Symfony et API Platform.
         - **Feuilles de Route** : Planification des refontes, adoption de nouvelles technologies (Docker, CI/CD).
         - **Gestion des Risques** : Identification et mitigation, garantissant la stabilité des mises en production.
         - **Générateur de Contrats** : Automatisation administrative, réduisant les erreurs et gagnant un temps précieux.
