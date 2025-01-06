@@ -43,9 +43,12 @@ sidebar:
 career-profile:
     title: Professional Profile
     summary: |
-      Développeur full-stack depuis 2020, spécialisé en PHP (Laravel, Symfony), je recherche un poste où mes compétences en TDD, Docker et CI/CD contribueront à livrer des applications robustes et performantes. Avec une forte expérience dans la conception d’architectures modulaires et l'intégration front-end (Vue.js), j’apporte une attention particulière à la sécurité, à la qualité du code (PSR, SOLID) et à la performance.
-      Habitué à travailler en mode Agile, je collabore avec divers profils (Product Owners, QA, Ops) pour aligner la technique sur les objectifs métier. J’aime partager mes connaissances via du mentorat et la publication d’articles, dans une démarche d’amélioration continue. Mon ambition : contribuer à une équipe dynamique, résoudre des problématiques complexes et délivrer des solutions qui apportent de la valeur tant à l’entreprise qu’aux utilisateurs finaux.
+      Développeur full-stack depuis 2020, spécialisé en PHP (Laravel, Symfony), je suis situé entre Metz et Strasbourg et effectue fréquemment le trajet. Passionné par le développement de solutions robustes et performantes, je maîtrise le TDD, Docker et CI/CD, des outils qui me permettent de livrer des applications de haute qualité.
 
+      Mon expérience inclut la conception d’architectures modulaires et l’intégration front-end avec Vue.js. J’accorde une attention particulière à la sécurité, à la performance et à la qualité du code (PSR, SOLID). Habitué à évoluer dans des environnements Agile, je collabore avec des Product Owners, QA et Ops pour aligner les solutions techniques aux besoins métiers.
+
+      Partageant mes connaissances par le mentorat et la rédaction d’articles, je m’inscris dans une démarche d’amélioration continue. Mon ambition : rejoindre une équipe dynamique, résoudre des problématiques complexes et apporter des solutions qui génèrent de la valeur pour l’entreprise comme pour ses utilisateurs finaux.
+      
 skills:  # ==> Section supplémentaire pour une lecture rapide (utile aux RH/Lead Tech)
     title: Key Skills
     info:
