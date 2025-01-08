@@ -41,7 +41,7 @@ sidebar:
         - item: Restauration mécanique
 
 career-profile:
-    title: Professional Profile
+    title: Profil
     summary: |
       Développeur full-stack depuis 2020, spécialisé en PHP (Laravel, Symfony), je suis situé entre Metz et Strasbourg et effectue fréquemment le trajet. Passionné par le développement de solutions robustes et performantes, je maîtrise le TDD, Docker et CI/CD, des outils qui me permettent de livrer des applications de haute qualité.
 
